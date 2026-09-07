@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 
-import pytest
+import pytest  # type: ignore[import-not-found]
 
 from briefcase.__main__ import main
 from briefcase.commands.create import CreateCommand
